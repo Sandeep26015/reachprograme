@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .div{
+            height: 70px;
+            width: 100%;
+            position: fixed;
+            z-index: 2;
+            background-color: #f2f2f2;
+            align-items: center; 
+            display: flex; 
+            justify-content: space-between; 
+            
+        }
+        .img{
+            position: relative;
+            align-items: center;
+           
+            
+        }
+        .img2{
+            position: relative;
+            align-items: center;
+            top: 5px;
+        }
+        .img3{
+            position: relative;
+            align-items: end;
+            
+            
+        }
+        .div1{
+            height: 100px;
+            width: 100%;
+            position: relative;
+           
+
+        }
+        .apple{
+            position: relative;
+            align-items: center;
+            top: 25px;
+            left: 100px;
+        }
+        .apple1{
+            position: relative;
+            justify-items: flex-end;
+            left:85vw ;
+            top: 20px;
+        }
+        .div2{
+            position: relative;
+            height: 80vh;
+            width: 100%;
+            background-color: #fafafa;
+
+        }
+        .part1{
+            position: relative;
+            height: 100%;
+            width: 40vw;
+            float: left;
+            background-color: #fafafa;
+            left: 10vw;
+        }
+        .part2{
+            position: relative;
+            height: 100%;
+            width: 45vw;
+            float: left;
+            
+            left: 10vw;
+
+        }
+        .watch{
+            height: 100%;
+            width: 45vw;
+        }
+        .name{
+            position: relative;
+            top: 80px;
+            height: 60px;
+            width: 255px;
+        }
+        .name1{
+            position: relative;
+            font-size: 95px;
+            color: #111111;
+            top: 10px;
+            font-weight: 20px;
+        }
+        .name2{
+            position: relative;
+            font-size: 30px;
+        }
+        .button{
+            height: 40px;
+            width: 230px;
+            font-size: 16px;
+            background-color: #e10a40;
+            color: #ffffff;
+            position: relative;
+            top: 20px;
+
+        }
+        .div3{
+            height: 95vh;
+            width: 100%;
+        }
+        .div4{
+            position: relative;
+            height: 95vh;
+            width: 50%;
+            float: left;
+        }
+        .img4{
+            position: relative;
+            height: 95vh;
+            width: 100%;
+        }
+        .div5{
+            position: relative;
+            height: 95vh;
+            width: 50%;
+            float: left;
+            background-color: #020202;
+        }
+        .img5{
+            position: relative;
+            top: 15vh;
+        }
+        .heading{
+            color: #f2f2f2;
+            font-size: 40px;
+            position: relative;
+            top: 15vh;
+            font-weight: 100px;
+        }
+        .unorder{
+            font-size: 30px;
+            color: #f2f2f2;
+            position: relative;
+            top: 20vh;
+        }
+        .rainbow{
+            position: relative;
+            height: 60vh;
+            width: 20vw;
+            top: -45vh;
+            left: 29vw;
+        }
+        .div6{
+            position: relative;
+            height: 80vh;
+            width: 100%;
+            
+        }
+        .part3{
+            position: relative;
+            height: 80vh;
+            width: 50%;
+            float: left;
+            background-color: #fafafa;
+        }
+        .part4{
+            position: relative;
+            height: 80vh;
+            width: 50%;
+            float: left;
+            background-color: #fafafa;
+        }
+        .img6{
+            position: relative;
+            height: 80vh;
+            width: 80%;
+        }
+        .heading1{
+            position: relative;
+            font-size: 40px;
+            font-style: 100px;
+            background-color: #e5e5e5;
+            height: 100px;
+            width: 300px;
+            align-items: center;
+            justify-content: center;
+            padding-left: 30px;
+            padding-top: 20px;
+            padding-right: 50px;
+            padding-bottom: 8px;
+            font-weight: 200px;
+            top: 10vh;
+            left: 8vw;
+            
+
+        }
+        .para{
+            position: relative;
+            font-size: 25px;
+            font-weight: 100px;
+            left: 8vw;
+            top: 10vh;
+        }
+        .button2{
+            height: 40px;
+            width: 230px;
+            font-size: 16px;
+            background-color: #e10a40;
+            color: #ffffff;
+            position: relative;
+            top: 12vh;
+            left: 8vw;
+
+        }
+        .div7{
+            position: relative;
+            height: 85vh;
+            width: 100%;
+            background-color: #4d4d4d;
+        }
+        .part-1{
+            position: relative;
+            height: 85vh;
+            width: 60%;
+            float: left;
+          
+        }
+        .part-2{
+            position: relative;
+            height: 85vh;
+            width: 40%;
+            float: left;
+           
+            
+        }
+        .image{
+            position: relative;
+           height: 85vh;
+           width: 100%;
+        }
+        .image1{
+            height: 60px;
+            width: 75px;
+            position: relative;
+            top: 12vh;
+        }
+        .made{
+            position: relative;
+            font-size: 45px;
+            font-weight: 200px;
+            color: white;
+            top: 12vh;
+        }
+        .para1{
+            position: relative;
+            font-size: 25px;
+            color: #ffffff;
+            font-weight: 100px;
+            top: 12vh;
+        }
+        .button3{
+            color: white;
+            background-color: #4d4d4d;
+            height: 40px;
+            width: 170px;
+            
+            position: relative;
+            top: 20vh;
+            font-size: 20px;
+            border: 2px solid white;
+        }
+        .div8{
+            position: relative;
+            height: 90vh;
+            width: 100%;
+            background-color: #fafafa;
+        }.subpart{
+            position: relative;
+            float: left;
+            height: 90vh;
+            width: 50%;
+        }
+        .subpart1{
+            position: relative;
+            float: left;
+            height: 90vh;
+            width: 50%;
+        }
+        .down{
+            position: relative;
+            top: 13vh;
+            left: 10vw;
+        }
+        .heading2{
+            position: relative;
+            top: 13vh;
+            left: 10vw;
+            color:#808080;
+            font-size: 35px;
+            font-weight: 100px;
+        }
+        .para2{
+            position: relative;
+            top: 15vh;
+            left: 10vw;
+            color:#808080;
+            font-size: 25px;
+            font-weight: 100px;  
+        }
+        .button4{
+            position: relative;
+            top: 18vh;
+            left: 10vw;
+            color: #808080;
+            border: 2px solid #808080;
+            height: 50px;
+            width: 200px;
+            font-size: 18px;
+        }
+        .div9{
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            background-color: #000000;
+        }
+        .subpart2{
+            position: relative;
+            height: 100vh;
+            float: left;
+            width: 50%;
+            
+        }
+        .subpart3{
+            position: relative;
+            height: 100vh;
+            float: left;
+            width: 50%;
+            
+        }
+        .image2{
+            position: relative;
+            top: 10vh;
+            left: 16vw;
+        }
+        .heading3{
+            position: relative;
+            font-size: 50px;
+            font-weight: 200px;
+            text-align: center;
+            top: 8vh;
+            color: white;
+        }
+        .para3{
+            position: relative;
+            color: white;
+            top: 8vh;
+            text-align: center;
+            font-weight: 150px;
+            font-size: 30px;
+        }
+        .button5{
+            color: white;
+            position: relative;
+            left: 19vw;
+            top: 15vh;
+            font-size: 25px;
+            height: 50px;
+            width: 200px;
+            background-color: #000000;
+            border: 2px solid white;
+            font-weight: 200px;
+        }
+        .div10{
+            position: relative;
+            height: 40vh;
+            width: 100%;
+           
+            top: -7vh;
+        }
+        .heading4{
+            position: relative;
+            font-size: 50px;
+            text-align: center;
+            font-weight: 200px;
+            top: 8vh;
+        }
+        .para4{
+            position: relative;
+            font-size: 20px;
+            text-align: center;
+            top: 8vh;
+            font-weight: 200px;
+
+        }
+        .div11{
+            position: relative;
+            height: 80vh;
+            width: 100%;
+        }
+        .image3{
+            position: relative;
+            height: 80vh;
+            width: 100%;
+
+        }
+        .div12{
+            position: relative;
+            height: 80vh;
+            width: 100%;
+            background-color: #808080;
+        }
+        .image4{
+            position: relative;
+            height: 80vh;
+            width: 60%;
+        }
+        .image5{
+            position: relative;
+            height: 50px;
+            width: 65px;
+            top: -60vh;
+        }    
+        
+        
+        .div13{
+            position: relative;
+            height: 80vh;
+            float: right;
+            width: 40%;
+            
+            top: -80.6vh;
+        }
+        .heading5{
+            position: relative;
+            font-size: 40px;
+            color: #ffffff;
+            top: 20vh;
+            
+        }
+        .para5{
+            position: relative;
+            font-size: 25px;
+            color: #ffffff;
+            font-weight: 200px;
+            top: 20vh;
+        }
+        .button6{
+            position: relative;
+            border: 2px solid white;
+            font-size: 20px;
+            height: 50px;
+            width: 180px;
+            top: 25vh;
+            background-color: #808080;
+            color: white;
+        }
+        .div14{
+            position: relative;
+            background-color: #fafafa;
+            height: 90vh;
+            width: 100%;
+        } 
+        .div15{
+            position: relative;
+            
+            height: 90vh;
+            width: 50%;
+            float: left;
+            top: -0.7vh;
+        }   
+        .div16{
+            position: relative;
+            
+            float: left;
+            height: 90vh;
+            width: 50%;
+            top: -80.7vh;
+
+        }
+        .heading6{
+            position: relative;
+            font-size: 40px;
+            font-weight: 200px;
+            background-color: #e5e5e5;
+            width: 400px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            left: 8vw;
+            top:8vh;
+        }
+        .para6{
+            font-size: 30px;
+            position: relative;
+            font-weight: 200px;
+            top: 8vh;
+            left: 8vw;
+            
+            
+        }
+        .button7{
+            position: relative;
+            height: 50px;
+            width: 220px;
+            font-size: 20px;
+            background-color: #e10a40;
+            top: 8vh;
+            left: 8vw;
+            color: white;
+
+        }
+        .div17{
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            
+        }
+        .image6{
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            top: -80.8vh;
+        }
+        .div18{
+            position: relative;
+            height: 80vh;
+            width: 40%;
+            background-color: black;
+            opacity: 0.1;
+            top: -172vh;
+            left: 10vw;
+        }
+        .image7{
+            position: relative;
+            top: 5vh;
+            left: 2vw;
+            opacity: 5;
+        }
+        .heading7{
+            position: relative;
+            top: 5vh;
+            left: 2vw;
+            color: white;
+            font-size: 35px;
+            opacity: 3;
+            font-weight: 200;
+        }
+        .para7{
+            position: relative;
+            top: 5vh;
+            left: 2vw;
+            color: white;
+            font-size: 20px;
+            font-weight: 200;
+        }
+        .button8{
+            position: relative;
+            top: 8vh;
+            left: 2vw;
+            color: white;
+            height: 50px;
+            width: 180px;
+            background: none;
+        }
+        .div19{
+            position: relative;
+            height: 40vh;
+            width: 100%;
+            background-color: #333333;
+            top: -3vh;
+        }
+        .para8{
+            position: relative;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            top: 8vh;
+        }
+        .span{
+            position: relative;
+            color: white;
+            font-size: 25px;
+            font-weight: 200;
+            left: 32vw;
+            top: 20vh;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <div class="div">
+        <a href="#" class="img"><img src="logo.png" alt="logo" height="40px" width=""></a>
+        <a href="# " class="img2"><img src="screen.png" alt="tabs"></a>
+        <a href="#" class="img3"><img src="./cut.png" alt="cut"></a>
+    </div>
+    <div class="div1">
+        <a href="#" class="apple"><img src="./appke logo.png" alt="apple" height="56px" width="64px" ></a>
+        <a href="#" class="apple1"><img src="./home minu.png" alt="menu"></a>
+    </div>
+    </header>
+    <section>
+        <div class="div2">
+        <div class="part1">
+            <img src="./apple def.png" alt="watch series" class="name">
+            <h1 class="name1"> Big News.</h1>
+            <h3 class="name2">Introducing Apple Watch Series 4. <br>Fundamentally Redesigned And Re-Engineered <br>To Help You Stay Even More Active, Healthy,<br> And Connected.</h3>
+            <button class="button">Watch the KeyNote</button>
+        </div>
+        <div class="part2">
+            <img src="./watch1.jpeg" alt="watch" class="watch">
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="div3">
+            <div class="div4"><img src="./watch.jpeg" alt="watch" class="img4"></div>
+            <div class="div5">
+                <img src="./apple logo.jpg" alt="" class="img5" height="60px" width="65px">
+                <h3 class="heading">Features</h3>
+                <ul class="unorder">
+                    <li>Arsenic-free glass</li>
+                    <li>Mercury-free</li>
+                    <li>BFR-free</li>
+                    <li>PVC-free</li>
+                    <li>Berullium-free</li>
+                    <li>ow-carbon aluminium process</li>
+                    <li>REACH regulation on nickel</li>
+                    <li>Eco-friendly packaging</li>
+                </ul>
+                <img src="./Screenshot (28).png" alt="rainbow" class="rainbow">
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="div6">
+            <div class="part3">
+                <h3 class="heading1">The New Apple <br>Watch 4</h3>
+                <p class="para">Fundamentally redesigned and <br>re‑engineered with the largest <br>Apple Watch display yet. <br>Advanced heart monitoring <br>capabilities. </p>
+                <a href="#"><button class="button2">Watch the KeyNote</button></a>
+            </div>
+            <div class="part4"><img src="./Screenshot (29).png" alt="watches" class="img6"></div>
+        </div>
+    </section>
+    <section>
+        <div class="div7">
+            <div class="part-1"> 
+                <img src="./Screenshot (30).png" alt="watches" class="image">
+            </div>
+            <div class="part-2">
+                <img src="./apple_logo-removebg-preview.png" alt="" class="image1">
+                <h2 class="made">Made To Motivate .</h2>
+                <p class="para1">New head-to-head competitions. Activity <br> sharing with friends. Personalized <br> coaching. Monthly challenges. <br>Achievement awards. Get all the <br>motivation you need to close your <br>Activity rings every day.</p>
+                 <a href="#"><button class="button3">Learn More</button></a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="div8">
+            <div class="subpart"> 
+                <img src="./download (1).png" alt="" class="down">
+                <h2 class="heading2">More Than Just A Sports Watch</h2>
+                <p class="para2">It’s Like A Trainer That Understands The <br>Ways You Work Out — From Running To <br>Yoga To Swimming — And Puts Every <br>Metric You Need Right On Your Wrist. With <br>Innovations From Start To Finish Line, It’s <br>Made For The Athlete In Us All.</p>
+                <a href="#"><button class="button4">Learn More</button></a>
+            </div>
+            <div class="subaprt1"> <img src="./girl 1.jpeg" alt="" height="702px" width="800"></div>
+        </div>
+    </section>
+    <section>
+        <div class="div9">
+            <div class="subpart2"><img src="./circle.jpeg" alt="" height="782px" width="100%"></div>
+            <div class="subpart3"> <img src="./series4.jpeg" alt="series 4 watch" class="image2">
+            <h2 class="heading3">Made To Motivate.</h2>
+            <p class="para3">New head-to-head competitions. Activity sharing <br>with friends. Personalized coaching. Monthly <br>challenges. Achievement awards. Get all the <br>motivation you need to close your Activity rings <br>every day.</p>
+            <a href="#"><button class="button5">Learn More</button></a>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="div10">
+            <h3 class="heading4">All New. For A Better You</h3>
+            <p class="para4">Introducing Apple Watch Series 4. Fundamentally redesigned and re- <br>engineered to help you stay even more active, healthy, and connected.</p>
+        </div>
+    </section>
+    <section>
+        <div class="div11"><img src="./Screenshot (31).png" alt="watches" class="image3"></div>
+    </section>
+    <section>
+        <div class="div12">
+           <img src="./Screenshot (33).png" alt="watch" class="image4">
+           <img src="./apple_logo-removebg-preview.png" alt="apple" class="image5">
+           <div class="div13"><h2 class="heading5">Not Just Evolved,<br> Transformed.</h2>
+                <p class="para5">The largest Apple Watch display yet. New <br> electrical heart sensor. Re-engineered <br>Digital Crown with haptic feedback. </p>
+                <a href="#"><button class="button6">Learn More</button></a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="div14">
+            <div class="div15">
+                <h2 class="heading6">There’s An Apple <br> Watch For Everyone.</h2>
+                <p class="para6">Understanding all the ways you <br>move throughout the day is an <br>essential part of living a healthy <br>life. Apple Watch shows your <br>daily movement as three simple <br>metrics: Move, Exercise, and <br> Stand. </p>
+                <a href="#"><button class="button7">Watch the KeyNote</button></a>
+            </div>
+            <div class="div16">
+                <img src="./Screenshot (34).png" alt="" height="703px">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="div17">
+            <img src="./wrist watch.jpg" alt="wrist watch" class="image6">
+            <div class="div18">
+                <img src="apple123.png" alt="apple" class="image7">
+                <h2 class="heading7">Ready For Whatever <br> Moves You.</h2>
+                <p class="para7">Whether it’s training for a marathon or <br>swimming laps at the pool, Apple Watch <br>Series 4 has something for everyone. Now <br>including yoga and hiking, the Workout app <br>works every way you want to exercise. You <br>can set individual goals, measure your <br>calorie burn, and track your progress over <br>time in the Activity app on your iPhone. <br>Ready? Go.</p>
+                <a href="#"><button class="button8">Learn more</button></a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>   
+        <section>
+            <div class="div19">
+                <p class="para8">Sample Text Footer</p>
+                <span class="span"><u><a href="#">Website Templates</a></u> created with <u><a href="#">Website Builder Software.</a></u></span>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
